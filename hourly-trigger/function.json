@@ -1,0 +1,11 @@
+{
+  "bindings": [
+    {
+      "name": "myTimer",
+      "type": "timerTrigger",
+      "direction": "in",
+      "schedule": "*/2 * * * * *"
+    }
+  ],
+  "scriptFile": "../dist/hourly-trigger/index.js"
+}
