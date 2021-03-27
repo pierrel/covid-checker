@@ -4,7 +4,7 @@
       "name": "myTimer",
       "type": "timerTrigger",
       "direction": "in",
-      "schedule": "*/2 * * * * *"
+      "schedule": "*/60 * * * * *"
     }
   ],
   "scriptFile": "../dist/hourly-trigger/index.js"
