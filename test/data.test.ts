@@ -1,7 +1,7 @@
 import { asyncFilter } from "../lib/data";
 
 function delay(ms: number) {
-    return new Promise( resolve => setTimeout(resolve, ms) );
+    return new Promise(resolve => setTimeout(resolve, ms));
 }
 
 test('process', async () => {
