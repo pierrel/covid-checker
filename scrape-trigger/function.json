@@ -7,5 +7,5 @@
       "schedule": "*/60 * * * * *"
     }
   ],
-  "scriptFile": "../dist/hourly-trigger/index.js"
+  "scriptFile": "../dist/scrape-trigger/index.js"
 }
